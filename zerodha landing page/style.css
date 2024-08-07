@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(242, 232, 232);
+    box-shadow: 2px 1px 2px #eee;
+
+}
+.logo img{
+    width: 200px;
+    padding-top: 14px;
+}
+button{
+    color: #666;
+    font-size: 18px;
+    font-weight: 450;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    margin: 8px;
+    background-color: white;
+    cursor: pointer;
+    
+
+}
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding-top: 10px;
+}
+.landing img{
+    width: 800px;
+}
+.content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: gray;
+}
+.para{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para h4{
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(69, 66, 66);
+}
+.signup{
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup button{
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    background-color: #387ed1;
+    color: white;
+    padding:  11px 20px
+}
+.signup button:hover{
+    background-color: #1c1616;
+    color: #eee;
+}
